@@ -50,6 +50,12 @@ body {
 	position: relative;
 }
 
+
+.visually-hidden {
+color: #000;
+background-color: #fff;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -93,6 +99,7 @@ body {
 #gallery {
 	/*	min-height: 100vh; */
 }
+
 .title{
 	text-align: center;
 	padding-block: 2em;
